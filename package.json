@@ -1,6 +1,6 @@
 {
   "name": "@erwanjugand/eslint-config",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "author": "Erwan Jugand <erwan.jugand@gmail.com>",
   "license": "MIT",
   "type": "module",
@@ -23,18 +23,18 @@
     "build": "tsc -p tsconfig.json",
     "prepublishOnly": "pnpm run build"
   },
+  "dependencies": {
+    "@eslint/js": "^9.39.2",
+    "eslint-plugin-vue": "^10.6.2",
+    "globals": "^17.0.0",
+    "typescript-eslint": "^8.51.0"
+  },
   "devDependencies": {
-    "@eslint/js": "9.39.2",
     "eslint": "9.39.2",
-    "eslint-plugin-vue": "10.6.2",
     "prettier": "3.7.4",
-    "typescript": "5.9.3",
-    "typescript-eslint": "8.51.0"
+    "typescript": "5.9.3"
   },
   "peerDependencies": {
-    "@eslint/js": "^9.39.2",
-    "eslint": "^9.39.2",
-    "eslint-plugin-vue": "^10.6.2",
-    "typescript-eslint": "^8.51.0"
+    "eslint": "^9.39.2"
   }
 }

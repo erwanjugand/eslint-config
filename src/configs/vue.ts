@@ -1,5 +1,7 @@
 import { defineConfig } from 'eslint/config'
 import vueConfig from 'eslint-plugin-vue'
+import globals from 'globals'
+import tseslint from 'typescript-eslint'
 
 export const config = defineConfig(vueConfig.configs['flat/recommended'], {
   name: 'erwanjugand/vue',
@@ -47,5 +49,13 @@ export const config = defineConfig(vueConfig.configs['flat/recommended'], {
     'vue/prefer-use-template-ref': 'error',
     'vue/require-macro-variable-name': 'error',
     'vue/require-typed-ref': 'error',
+  },
+  languageOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    globals: globals.browser,
+    parserOptions: {
+      parser: tseslint.parser,
+    },
   },
 })
