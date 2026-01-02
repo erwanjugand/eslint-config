@@ -1,7 +1,13 @@
 {
   "name": "@erwanjugand/eslint-config",
   "version": "0.1.0",
+  "author": "Erwan Jugand <erwan.jugand@gmail.com>",
+  "license": "MIT",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erwanjugand/eslint-config.git"
+  },
   "files": [
     "dist"
   ],
