@@ -1,12 +1,10 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
     "lib": ["ESNext"],
     "moduleDetection": "force",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "resolveJsonModule": true,
-    "strict": true,
     "noUnusedLocals": true,
     "declaration": true,
     "emitDeclarationOnly": false,
