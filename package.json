@@ -1,6 +1,6 @@
 {
   "name": "@erwanjugand/eslint-config",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "author": "Erwan Jugand <erwan.jugand@gmail.com>",
   "license": "MIT",
   "type": "module",
