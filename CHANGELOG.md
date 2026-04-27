@@ -1,3 +1,9 @@
+## [2.2.0](https://github.com/erwanjugand/eslint-config/compare/v2.1.0...v2.2.0) (2026-04-27)
+
+### Features
+
+* **vue:** add 2 rules ([#20](https://github.com/erwanjugand/eslint-config/issues/20)) ([820f1e9](https://github.com/erwanjugand/eslint-config/commit/820f1e9ea9ff66458a2ce287891715fd9f6028c4))
+
 ## [2.1.0](https://github.com/erwanjugand/eslint-config/compare/v2.0.3...v2.1.0) (2026-04-15)
 
 ### Chore
