@@ -1,5 +1,6 @@
 {
   "name": "@erwanjugand/eslint-config",
+  "packageManager": "pnpm@11.0.2",
   "version": "2.2.0",
   "author": "Erwan Jugand <erwan.jugand@gmail.com>",
   "license": "MIT",
