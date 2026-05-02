@@ -1,3 +1,16 @@
+## [2.3.0](https://github.com/erwanjugand/eslint-config/compare/v2.2.0...v2.3.0) (2026-05-02)
+
+### Chore
+
+* **deps:** lock file maintenance ([#23](https://github.com/erwanjugand/eslint-config/issues/23)) ([646e706](https://github.com/erwanjugand/eslint-config/commit/646e7067adeacc3353e1f017b656ddde983a154c))
+* **deps:** update all non-major dependencies ([#22](https://github.com/erwanjugand/eslint-config/issues/22)) ([748349f](https://github.com/erwanjugand/eslint-config/commit/748349fe7042125bf11273691e46a377c1c41def))
+* **pnpm:** update to v11 ([#21](https://github.com/erwanjugand/eslint-config/issues/21)) ([72b9100](https://github.com/erwanjugand/eslint-config/commit/72b9100dd48f288c945f1496ed5b849d1548000d))
+
+### Features
+
+* **ts:** switch to strictTypeChecked config ([4bd6e47](https://github.com/erwanjugand/eslint-config/commit/4bd6e47d3daee76aa28eff6181fab2d1f32c38f2))
+* **vue:** disable vue/require-default-prop rule ([c33bc1b](https://github.com/erwanjugand/eslint-config/commit/c33bc1b8d6f62555d6dad381fad5948947f62633))
+
 ## [2.2.0](https://github.com/erwanjugand/eslint-config/compare/v2.1.0...v2.2.0) (2026-04-27)
 
 ### Features
