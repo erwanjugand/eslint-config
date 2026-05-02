@@ -1,6 +1,6 @@
 {
   "name": "@erwanjugand/eslint-config",
-  "packageManager": "pnpm@11.0.2",
+  "packageManager": "pnpm@11.0.3",
   "version": "2.2.0",
   "author": "Erwan Jugand <erwan.jugand@gmail.com>",
   "license": "MIT",
@@ -31,9 +31,9 @@
     "typescript-eslint": "^8.58.0"
   },
   "devDependencies": {
-    "eslint": "10.2.0",
-    "prettier": "3.8.1",
-    "typescript": "6.0.2"
+    "eslint": "10.2.1",
+    "prettier": "3.8.3",
+    "typescript": "6.0.3"
   },
   "peerDependencies": {
     "eslint": "^10.0.0"
