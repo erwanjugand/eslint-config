@@ -2,7 +2,7 @@ import { defineConfig } from 'eslint/config'
 import eslint from '@eslint/js'
 import tseslint from 'typescript-eslint'
 
-export const config = defineConfig(eslint.configs.recommended, tseslint.configs.strict, {
+export const config = defineConfig(eslint.configs.recommended, tseslint.configs.strictTypeChecked, {
   name: 'erwanjugand/base',
   rules: {
     // Strictness JS
@@ -48,6 +48,10 @@ export const config = defineConfig(eslint.configs.recommended, tseslint.configs.
     'require-await': 'error',
     'require-unicode-regexp': 'error',
 
+    // Lax TS
+    '@typescript-eslint/no-floating-promises': 'off',
+    '@typescript-eslint/restrict-template-expressions': ['error', { allowNumber: true }],
+
     // Override  TS
     '@typescript-eslint/consistent-type-imports': [
       'error',
@@ -63,5 +67,13 @@ export const config = defineConfig(eslint.configs.recommended, tseslint.configs.
     '@typescript-eslint/prefer-nullish-coalescing': 'error',
     '@typescript-eslint/prefer-optional-chain': 'error',
     '@typescript-eslint/prefer-string-starts-ends-with': 'error',
+  },
+  languageOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    parserOptions: {
+      projectService: true,
+      parser: tseslint.parser,
+    },
   },
 })

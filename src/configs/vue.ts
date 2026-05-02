@@ -60,6 +60,8 @@ export const config = defineConfig(vueConfig.configs['flat/recommended'], {
     sourceType: 'module',
     globals: globals.browser,
     parserOptions: {
+      extraFileExtensions: ['.vue'],
+      projectService: true,
       parser: tseslint.parser,
     },
   },
