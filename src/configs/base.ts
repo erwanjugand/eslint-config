@@ -2,10 +2,10 @@ import { defineConfig } from 'eslint/config'
 import eslint from '@eslint/js'
 import tseslint from 'typescript-eslint'
 
-export const config = defineConfig(eslint.configs['recommended'], tseslint.configs['strict'], {
+export const config = defineConfig(eslint.configs.recommended, tseslint.configs.strict, {
   name: 'erwanjugand/base',
   rules: {
-    // Override eslint
+    // Strictness JS
     'no-constructor-return': 'error',
     'no-duplicate-imports': 'error',
     'no-self-compare': 'error',
@@ -48,11 +48,13 @@ export const config = defineConfig(eslint.configs['recommended'], tseslint.confi
     'require-await': 'error',
     'require-unicode-regexp': 'error',
 
-    // Override typescript-eslint
+    // Override  TS
     '@typescript-eslint/consistent-type-imports': [
       'error',
       { prefer: 'type-imports', fixStyle: 'inline-type-imports' },
     ],
+
+    // Strictness TS
     '@typescript-eslint/no-import-type-side-effects': 'error',
     '@typescript-eslint/no-shadow': 'error',
     '@typescript-eslint/no-empty-function': 'error',

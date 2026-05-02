@@ -7,6 +7,10 @@ export const config = defineConfig(vueConfig.configs['flat/recommended'], {
   name: 'erwanjugand/vue',
   files: ['**/*.vue'],
   rules: {
+    // Lax
+    'vue/multi-word-component-names': 'off',
+    'vue/require-default-prop': 'off',
+
     // Override
     'vue/block-order': [
       'error',
@@ -14,9 +18,8 @@ export const config = defineConfig(vueConfig.configs['flat/recommended'], {
         order: ['script', 'template', 'style'],
       },
     ],
-    'vue/multi-word-component-names': 'off',
 
-    // Uncategorized
+    // Strictness
     'vue/block-lang': [
       'error',
       {
