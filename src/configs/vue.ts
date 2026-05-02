@@ -1,5 +1,5 @@
-import { defineConfig } from 'eslint/config'
 import vueConfig from 'eslint-plugin-vue'
+import { defineConfig } from 'eslint/config'
 import globals from 'globals'
 import tseslint from 'typescript-eslint'
 
