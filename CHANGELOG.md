@@ -1,3 +1,18 @@
+## [2.4.0](https://github.com/erwanjugand/eslint-config/compare/v2.3.0...v2.4.0) (2026-05-09)
+
+### Chore
+
+* **ci:** check all ([39a3187](https://github.com/erwanjugand/eslint-config/commit/39a31874f8468256c6b763b3944f16ca6c09c3a1))
+* **prettier:** migrate config + setup eslint ([#24](https://github.com/erwanjugand/eslint-config/issues/24)) ([f4c63ef](https://github.com/erwanjugand/eslint-config/commit/f4c63ef9b24390ccb9ee020b5e0acd169947b18e))
+
+### Features
+
+* **deps:** add jiti has dependencies ([bd5b5d9](https://github.com/erwanjugand/eslint-config/commit/bd5b5d97408d9db8664516b7eb520e88af37551c))
+
+### Bug Fixes
+
+* **package:** bad export ([0d00e8a](https://github.com/erwanjugand/eslint-config/commit/0d00e8a1614a30dab3ff02db05158fafa6143558))
+
 ## [2.3.0](https://github.com/erwanjugand/eslint-config/compare/v2.2.0...v2.3.0) (2026-05-02)
 
 ### Chore
