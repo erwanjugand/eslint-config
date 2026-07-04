@@ -1,5 +1,10 @@
 ## [2.5.0](https://github.com/erwanjugand/eslint-config/compare/v2.4.0...v2.5.0) (2026-07-04)
 
+
+### Features
+
+**rules:** add 'checkRelationalComparisons' option for 'no-constant-binary-expression' ([31f1c99](https://github.com/erwanjugand/eslint-config/commit/31f1c99aa255a8211707233ae43a1cf4d1064542))
+
 ## [2.4.0](https://github.com/erwanjugand/eslint-config/compare/v2.3.0...v2.4.0) (2026-05-09)
 
 ### Chore

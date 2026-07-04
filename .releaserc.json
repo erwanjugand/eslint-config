@@ -4,7 +4,7 @@
     [
       "@semantic-release/commit-analyzer",
       {
-        "preset": "conventionalCommits",
+        "preset": "conventionalcommits",
         "releaseRules": [
           {
             "type": "chore",
@@ -44,7 +44,7 @@
     [
       "@semantic-release/release-notes-generator",
       {
-        "preset": "conventionalCommits",
+        "preset": "conventionalcommits",
         "presetConfig": {
           "types": [
             {
