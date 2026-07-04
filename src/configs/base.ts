@@ -18,6 +18,7 @@ export const config = defineConfig(eslint.configs.recommended, tseslint.configs.
     'no-alert': 'error',
     'no-caller': 'error',
     'no-console': 'error',
+    'no-constant-binary-expression': ['error', { checkRelationalComparisons: true }],
     'no-else-return': 'error',
     'no-eq-null': 'error',
     'no-eval': 'error',
