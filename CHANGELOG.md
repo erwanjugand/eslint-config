@@ -1,3 +1,15 @@
+## [2.6.0](https://github.com/erwanjugand/eslint-config/compare/v2.5.0...v2.6.0) (2026-08-02)
+
+### Chore
+
+* **ci:** downgrade conventional-changelog-conventionalcommits to v9 ([31ee8e7](https://github.com/erwanjugand/eslint-config/commit/31ee8e7074106bb6c819d9aa2779619c53284059))
+* **deps:** update actions/setup-node action to v7 ([#31](https://github.com/erwanjugand/eslint-config/issues/31)) ([6cf9566](https://github.com/erwanjugand/eslint-config/commit/6cf95664ba6e4e48b6d3464a91ab793354b10421))
+* **release:** fix changelog ([4cbed80](https://github.com/erwanjugand/eslint-config/commit/4cbed8065a0be1fd7336411fdfd5fa3f6232dbef))
+
+### Features
+
+* **package:** explicite node support ([58e7709](https://github.com/erwanjugand/eslint-config/commit/58e7709cbbffe0a1b12b301724d3220b0585f326))
+
 ## [2.5.0](https://github.com/erwanjugand/eslint-config/compare/v2.4.0...v2.5.0) (2026-07-04)
 
 
