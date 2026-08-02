@@ -1,6 +1,9 @@
 {
   "name": "@erwanjugand/eslint-config",
   "packageManager": "pnpm@11.9.0",
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24"
+  },
   "version": "2.5.0",
   "author": "Erwan Jugand <erwan.jugand@gmail.com>",
   "license": "MIT",
