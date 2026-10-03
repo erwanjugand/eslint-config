@@ -1,3 +1,25 @@
+## [2.6.1](https://github.com/erwanjugand/eslint-config/compare/v2.6.0...v2.6.1) (2026-10-03)
+
+### Bug Fixes
+
+* **release:** breaking priority ([f778d23](https://github.com/erwanjugand/eslint-config/commit/f778d239ba8d400eda8576baf1e37cb8a515346f))
+* **release:** move changelog order ([477463f](https://github.com/erwanjugand/eslint-config/commit/477463f725abd16e07709ed6686fe9c12e1cb1d4))
+
+### Chore
+
+* **ci:** migrate pnpm/action-setup to pnpm/setup ([#36](https://github.com/erwanjugand/eslint-config/issues/36)) ([32231a6](https://github.com/erwanjugand/eslint-config/commit/32231a6531e1f4fb38468e591dea20d88e85efbf))
+* **deps:** lock file maintenance ([#34](https://github.com/erwanjugand/eslint-config/issues/34)) ([4fd4597](https://github.com/erwanjugand/eslint-config/commit/4fd4597a8da6a6d95826c237cb7af36e114cc12d))
+* **deps:** lock file maintenance ([#39](https://github.com/erwanjugand/eslint-config/issues/39)) ([760a09a](https://github.com/erwanjugand/eslint-config/commit/760a09aec91b34990b49e42cf8c348bd8d334135))
+* **deps:** update all non-major dependencies ([#33](https://github.com/erwanjugand/eslint-config/issues/33)) ([a9eec32](https://github.com/erwanjugand/eslint-config/commit/a9eec32a4a8be5fccc5de1d3872edcd20947cd47))
+* **deps:** update all non-major dependencies ([#38](https://github.com/erwanjugand/eslint-config/issues/38)) ([65bc2c4](https://github.com/erwanjugand/eslint-config/commit/65bc2c488fc5143a13948bc14498410978653f9e))
+* **deps:** update pnpm to v12 ([#35](https://github.com/erwanjugand/eslint-config/issues/35)) ([ec4a68d](https://github.com/erwanjugand/eslint-config/commit/ec4a68df86dd8f92340149504f412c46ac352a7d))
+* **deps:** update pnpm/setup action to v3 ([#37](https://github.com/erwanjugand/eslint-config/issues/37)) ([d5363ac](https://github.com/erwanjugand/eslint-config/commit/d5363ac0a26d072c66e520a348d8c020d66c8b7f))
+* **pnpm:** exclude [@erwanjugand](https://github.com/erwanjugand) of minimum release age ([88fa7b3](https://github.com/erwanjugand/eslint-config/commit/88fa7b311be8ae5edc11def9bee806d69eeb3d15))
+
+### CI/CD
+
+* **ubuntu:** pin version ([73b970f](https://github.com/erwanjugand/eslint-config/commit/73b970f9155a4554e30295356b37c229cf5dc7e0))
+
 ## [2.6.0](https://github.com/erwanjugand/eslint-config/compare/v2.5.0...v2.6.0) (2026-08-02)
 
 ### Chore
